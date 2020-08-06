@@ -24,9 +24,11 @@ console.log(dist)
 graph looks like this
 ```javascript
 {
+  // each farm is a vertex
   "Farm Number One": {
     phone: "phone number",
     // array of farms that are within 5 miles
+    // this is creating edges between farms
     closeFarms: [
       ["Farm Number Three"],
       ["Farm Number Five"],
