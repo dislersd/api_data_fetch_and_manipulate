@@ -26,8 +26,8 @@ graph looks like this
 {
   "Farm Number One": {
     phone: "phone number",
+    // array of farms that are within 5 miles
     closeFarms: [
-      // array of farms that are within 5 miles
       ["Farm Number Three"],
       ["Farm Number Five"],
       ["Farm Number Ten"]
