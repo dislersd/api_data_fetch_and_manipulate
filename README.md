@@ -1,8 +1,8 @@
 # Fetching Data
 
 There are two main files here 
-- `index.js` that fetches data using axios and then uses the file system module to write the response to a JSON file
-- `createGraph.js` takes the JSON file and creates connections between the farms based on distance between lat and lon points and then writes another JSON file with this data called farm_graph.json
+- `index.js` that fetches data using axios and then uses the file system module to write the response to a JSON file. The JSON file is called [data_from_api.json](https://github.com/dislersd/api_data_fetch_and_manipulate/blob/master/data_from_api.json)
+- `createGraph.js` takes the JSON file and creates connections between the farms based on distance between lat and lon points and then writes another JSON file with this data called [farm_graph.json](https://github.com/dislersd/api_data_fetch_and_manipulate/blob/master/farm_graph.json)
 
 data is fetched from this url: "https://data.ct.gov/resource/y6p2-px98.json?category=Fruit&item=Peaches" 
 <br>
