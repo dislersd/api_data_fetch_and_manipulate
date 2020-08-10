@@ -26,22 +26,22 @@ graph looks like this
 {
   // each farm is a vertex
   "Farm Number One": {
-    phone: "phone number",
+    phone: "123-456-7890",
     // array of farms that are within 5 miles
     // this is creating edges between farms
     closeFarms: [
-      ["Farm Number Three"],
-      ["Farm Number Five"],
-      ["Farm Number Ten"]
+      "Farm Number Three",
+      "Farm Number Five",
+      "Farm Number Ten"
     ]
   },
     "Farm Number Two": {
-    phone: "phone number",
+    phone: "102-345-6789",
     closeFarms: [
-      ["Farm Number Six"],
-      ["Farm Number Five"],
-      ["Farm Number Thirteen"],
-      ["Farm Number Four"]
+      "Farm Number Six",
+      "Farm Number Five",
+      "Farm Number Thirteen",
+      "Farm Number Four"
     ]
   }
 }
